@@ -1,0 +1,25 @@
+{
+  "name": "my-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.mjs",
+  "bin": {
+    "mycmd": "./index.mjs"
+  },
+  "scripts": {
+    "test": "./index.mjs",
+    "start": "node index.mjs",
+    "cherryPick": "node index.mjs cherry-pick-pjm  -f 'Jun 05 2023' -t 'Jun 27 2023'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^9.4.0",
+    "conf": "^10.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.3"
+  }
+}
